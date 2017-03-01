@@ -1006,35 +1006,6 @@ type 0207, grid 10 mm</description>
 <wire x1="1.905" y1="-0.9525" x2="1.27" y2="-0.9525" width="0.1016" layer="21"/>
 <rectangle x1="-0.25" y1="-0.75" x2="0.25" y2="0.75" layer="41"/>
 </package>
-<package name="R-0603">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="0" y="1.905" size="0.8128" layer="25" ratio="14" rot="R180" align="bottom-center">&gt;NAME</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<wire x1="-0.635" y1="0.79375" x2="-1.5875" y2="0.79375" width="0.127" layer="21"/>
-<wire x1="-1.5875" y1="0.79375" x2="-1.5875" y2="-0.79375" width="0.127" layer="21"/>
-<wire x1="-1.5875" y1="-0.79375" x2="-0.635" y2="-0.79375" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-0.79375" x2="1.5875" y2="-0.79375" width="0.127" layer="21"/>
-<wire x1="1.5875" y1="-0.79375" x2="1.5875" y2="0.79375" width="0.127" layer="21"/>
-<wire x1="1.5875" y1="0.79375" x2="0.635" y2="0.79375" width="0.127" layer="21"/>
-</package>
-<package name="0207/2V">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-type 0207, grid 2.5 mm</description>
-<wire x1="-1.27" y1="0" x2="-0.381" y2="0" width="0.6096" layer="51"/>
-<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.6096" layer="21"/>
-<wire x1="0.381" y1="0" x2="1.27" y2="0" width="0.6096" layer="51"/>
-<circle x="-1.27" y="0" radius="1.27" width="0.1524" layer="21"/>
-<circle x="-1.27" y="0" radius="1.016" width="0.1524" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128"/>
-<pad name="2" x="1.27" y="0" drill="0.8128"/>
-<text x="0" y="1.905" size="0.8128" layer="25" ratio="15" align="center">&gt;NAME</text>
-</package>
 <package name="R-1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
@@ -1066,49 +1037,6 @@ type 0207, grid 2.5 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R" prefix="R" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0207/10" package="R-0207/10">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-0805" package="R-0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-0603" package="R-0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-0207V" package="0207/2V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="?" prefix="R">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
@@ -2257,6 +2185,69 @@ type 0207, grid 2.5 mm</description>
 </technologies>
 </device>
 <device name="6K65" package="R-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="56K(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="150K(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="270R(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="330R(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="820R(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1K2(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2R2(TH)" package="R-0207/10">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3806,7 +3797,7 @@ diameter 9 mm, horizontal, grid 15.24 mm</description>
 <part name="L1" library="inductors" deviceset="BL01RN1A?" device="1F1J"/>
 <part name="GND5" library="supply" deviceset="CHASSIS" device=""/>
 <part name="GND3" library="supply" deviceset="CHASSIS" device=""/>
-<part name="R3" library="resistors" deviceset="R" device="-0207/10" value="2.2R"/>
+<part name="R3" library="resistors" deviceset="?" device="2R2(TH)" value="2R2(TH)"/>
 <part name="GND2" library="supply" deviceset="CHASSIS" device=""/>
 <part name="GND7" library="supply" deviceset="GND" device=""/>
 <part name="GND8" library="supply" deviceset="GND" device=""/>
