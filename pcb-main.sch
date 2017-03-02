@@ -722,7 +722,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="712RA" prefix="XS">
+<deviceset name="722RA" prefix="XS">
 <gates>
 <gate name="G$1" symbol="POWER-JACK-SWITCHED" x="0" y="0"/>
 </gates>
@@ -3789,7 +3789,7 @@ diameter 9 mm, horizontal, grid 15.24 mm</description>
 <part name="R2" library="resistors" deviceset="?" device="1K(TH)"/>
 <part name="PWR2" library="supply" deviceset="+5V" device=""/>
 <part name="PWR1" library="supply" deviceset="+5V" device=""/>
-<part name="XS1" library="connectors" deviceset="712RA" device=""/>
+<part name="XS1" library="connectors" deviceset="722RA" device=""/>
 <part name="GND1" library="supply" deviceset="CHASSIS" device=""/>
 <part name="VD1" library="diodes-schottky" deviceset="?" device="STPS2L60"/>
 <part name="U2" library="regulators-switch-mode" deviceset="RS3-1205S" device=""/>
