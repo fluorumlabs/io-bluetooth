@@ -1189,7 +1189,7 @@ Please make sure your boards conform to these design rules.</description>
 <elements>
 <element name="E$1" library="enclosure" package="B*-080" value="" x="0" y="0"/>
 <element name="O1" library="hardware" package="KEYSTONE-7762" value="MOUNT(KEYSTONE-7762)" x="60" y="0"/>
-<element name="PCB1" library="module-footprints" package="F-LOGO" value="IO-BT rev.A" x="48.5" y="78"/>
+<element name="PCB1" library="module-footprints" package="F-LOGO" value="IO-BT rev.B" x="48.5" y="78"/>
 <element name="XS2" library="connectors" package="NMJ6HC-S" value="ACJS-MHR" x="85" y="80" rot="R90">
 <attribute name="MOUSER" value="523-ACJS-MHR" x="85" y="80" size="1.778" layer="27" rot="R90" display="off"/>
 </element>

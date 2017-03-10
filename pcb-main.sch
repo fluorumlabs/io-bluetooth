@@ -3776,7 +3776,7 @@ diameter 9 mm, horizontal, grid 15.24 mm</description>
 </classes>
 <parts>
 <part name="O1" library="hardware" deviceset="MOUNT(?)" device="KEYSTONE-7762"/>
-<part name="PCB1" library="module-footprints" deviceset="GENERIC" device="-LOGO" value="IO-BT rev.A"/>
+<part name="PCB1" library="module-footprints" deviceset="GENERIC" device="-LOGO" value="IO-BT rev.B"/>
 <part name="XS2" library="connectors" deviceset="ACJS-MHR" device=""/>
 <part name="XS3" library="connectors" deviceset="ACJS-MHR" device=""/>
 <part name="U1" library="module-wireless" deviceset="BTA-RX-" device="A"/>
