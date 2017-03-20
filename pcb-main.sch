@@ -546,12 +546,12 @@
 <text x="1.905" y="0" size="0.8128" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="NMJ6HC-S">
-<wire x1="0" y1="9.1" x2="-20.6" y2="9.1" width="0.1016" layer="21"/>
-<wire x1="-20.6" y1="9.1" x2="-20.6" y2="4.25" width="0.1016" layer="21"/>
+<wire x1="0" y1="10" x2="-20.6" y2="10" width="0.1016" layer="21"/>
+<wire x1="-20.6" y1="10" x2="-20.6" y2="4.25" width="0.1016" layer="21"/>
 <wire x1="-20.6" y1="4.25" x2="-20.6" y2="-4.25" width="0.1016" layer="21"/>
-<wire x1="-20.6" y1="-4.25" x2="-20.6" y2="-9.1" width="0.1016" layer="21"/>
-<wire x1="-20.6" y1="-9.1" x2="0" y2="-9.1" width="0.1016" layer="21"/>
-<wire x1="0" y1="-9.1" x2="0" y2="9.1" width="0.1016" layer="21"/>
+<wire x1="-20.6" y1="-4.25" x2="-20.6" y2="-10" width="0.1016" layer="21"/>
+<wire x1="-20.6" y1="-10" x2="0" y2="-10" width="0.1016" layer="21"/>
+<wire x1="0" y1="-10" x2="0" y2="10" width="0.1016" layer="21"/>
 <wire x1="-20.6" y1="-4.25" x2="-22.965" y2="-4.25" width="0.1016" layer="21"/>
 <wire x1="-22.965" y1="-4.25" x2="-23.6" y2="-3.615" width="0.1016" layer="21"/>
 <wire x1="-23.6" y1="-3.615" x2="-23.6" y2="3.615" width="0.1016" layer="21"/>
@@ -2256,6 +2256,69 @@ type 0207, grid 10 mm</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="6K81*(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="47R(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4K99*(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1K21*(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5R(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="100K*(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="22R(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -2621,17 +2684,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </technology>
 </technologies>
 </device>
-<device name="47U/35V" package="E3,5-8">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MOUSER" value="647-USP1E470MDD" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="47U/16V" package="E2-5">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
@@ -2706,6 +2758,42 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </technologies>
 </device>
 <device name="470U/35V" package="E5-10,5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="100U/63V" package="E5-10,5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="47U/35V" package="E2-5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="47U/63V" package="E5-10,5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3300U/6V3" package="E5-10,5">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -3155,6 +3243,15 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </technologies>
 </device>
 <device name="10N" package="C-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="47P(TH)" package="C050-024X044">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>

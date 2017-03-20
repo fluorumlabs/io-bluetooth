@@ -582,12 +582,12 @@
 <text x="1.905" y="0" size="0.8128" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="NMJ6HC-S">
-<wire x1="0" y1="9.1" x2="-20.6" y2="9.1" width="0.1016" layer="21"/>
-<wire x1="-20.6" y1="9.1" x2="-20.6" y2="4.25" width="0.1016" layer="21"/>
+<wire x1="0" y1="10" x2="-20.6" y2="10" width="0.1016" layer="21"/>
+<wire x1="-20.6" y1="10" x2="-20.6" y2="4.25" width="0.1016" layer="21"/>
 <wire x1="-20.6" y1="4.25" x2="-20.6" y2="-4.25" width="0.1016" layer="21"/>
-<wire x1="-20.6" y1="-4.25" x2="-20.6" y2="-9.1" width="0.1016" layer="21"/>
-<wire x1="-20.6" y1="-9.1" x2="0" y2="-9.1" width="0.1016" layer="21"/>
-<wire x1="0" y1="-9.1" x2="0" y2="9.1" width="0.1016" layer="21"/>
+<wire x1="-20.6" y1="-4.25" x2="-20.6" y2="-10" width="0.1016" layer="21"/>
+<wire x1="-20.6" y1="-10" x2="0" y2="-10" width="0.1016" layer="21"/>
+<wire x1="0" y1="-10" x2="0" y2="10" width="0.1016" layer="21"/>
 <wire x1="-20.6" y1="-4.25" x2="-22.965" y2="-4.25" width="0.1016" layer="21"/>
 <wire x1="-22.965" y1="-4.25" x2="-23.6" y2="-3.615" width="0.1016" layer="21"/>
 <wire x1="-23.6" y1="-3.615" x2="-23.6" y2="3.615" width="0.1016" layer="21"/>
@@ -1193,8 +1193,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="XS2" library="connectors" package="NMJ6HC-S" value="ACJS-MHR" x="85" y="80" rot="R90">
 <attribute name="MOUSER" value="523-ACJS-MHR" x="85" y="80" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="XS3" library="connectors" package="NMJ6HC-S" value="ACJS-MHR" x="66" y="80" rot="R90">
-<attribute name="MOUSER" value="523-ACJS-MHR" x="66" y="80" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="XS3" library="connectors" package="NMJ6HC-S" value="ACJS-MHR" x="64" y="80" rot="R90">
+<attribute name="MOUSER" value="523-ACJS-MHR" x="64" y="80" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U1" library="module-wireless" package="BTA-RX" value="BTA-RX-A" x="28" y="34" rot="R180"/>
 <element name="SB1" library="switches" package="SPUN-DPDT" value="SPUN191000" x="50" y="3" rot="R180"/>
@@ -1290,12 +1290,12 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="XS3" pad="S"/>
 <contactref element="XS2" pad="R"/>
 <contactref element="XS3" pad="R"/>
-<wire x1="57.885" y1="69.65" x2="57.885" y2="76" width="0.4064" layer="1"/>
+<wire x1="55.885" y1="69.65" x2="55.885" y2="73.115" width="0.4064" layer="1"/>
 <wire x1="76.885" y1="69.65" x2="76.885" y2="73" width="0.4064" layer="1"/>
 <wire x1="76.885" y1="73" x2="76.885" y2="76" width="0.4064" layer="1"/>
-<wire x1="57.885" y1="76" x2="57.885" y2="73.115" width="0.4064" layer="1"/>
-<wire x1="57.885" y1="73.115" x2="58" y2="73" width="0.4064" layer="1"/>
-<wire x1="58" y1="73" x2="66" y2="73" width="0.4064" layer="1"/>
+<wire x1="55.885" y1="76" x2="55.885" y2="73.115" width="0.4064" layer="1"/>
+<wire x1="55.885" y1="73.115" x2="56" y2="73" width="0.4064" layer="1"/>
+<wire x1="56" y1="73" x2="66" y2="73" width="0.4064" layer="1"/>
 <wire x1="66" y1="73" x2="76.885" y2="73" width="0.4064" layer="1"/>
 <wire x1="14.03" y1="34" x2="14.03" y2="33" width="0.4064" layer="1"/>
 <wire x1="14.03" y1="33" x2="15.03" y2="32" width="0.4064" layer="1" curve="90"/>
@@ -1333,11 +1333,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="18.20710625" y1="37.20710625" x2="18.9142125" y2="37.5" width="0.4064" layer="1" curve="-45"/>
 <wire x1="18.9142125" y1="37.5" x2="51.5857875" y2="37.5" width="0.4064" layer="1"/>
 <wire x1="51.5857875" y1="37.5" x2="52.29289375" y2="37.79289375" width="0.4064" layer="1" curve="45"/>
-<wire x1="52.29289375" y1="37.79289375" x2="57.25" y2="42.75" width="0.4064" layer="1"/>
-<wire x1="57.25" y1="42.75" x2="57.5" y2="43" width="0.4064" layer="1"/>
-<wire x1="57.885" y1="63.3" x2="57.885" y2="43.7992125" width="0.4064" layer="1"/>
-<wire x1="57.885" y1="43.7992125" x2="57.59210625" y2="43.09210625" width="0.4064" layer="1" curve="-45"/>
-<wire x1="57.59210625" y1="43.09210625" x2="57.5" y2="43" width="0.4064" layer="1"/>
+<wire x1="52.29289375" y1="37.79289375" x2="55.59210625" y2="41.09210625" width="0.4064" layer="1"/>
+<wire x1="55.885" y1="63.3" x2="55.885" y2="41.7992125" width="0.4064" layer="1"/>
+<wire x1="55.885" y1="41.7992125" x2="55.59210625" y2="41.09210625" width="0.4064" layer="1" curve="-45"/>
 </signal>
 <signal name="N$38">
 <contactref element="SB1" pad="2"/>
