@@ -810,12 +810,12 @@
 <wire x1="-1" y1="8.315" x2="-1" y2="7.815" width="0.127" layer="21"/>
 <wire x1="-1" y1="7.815" x2="1" y2="7.815" width="0.127" layer="21"/>
 <wire x1="1" y1="7.815" x2="1" y2="8.315" width="0.127" layer="21"/>
-<pad name="4" x="-3" y="-19.685" drill="1.5"/>
-<pad name="5" x="-3" y="-23.685" drill="1.5"/>
-<pad name="6" x="-3" y="-27.685" drill="1.5"/>
-<pad name="3" x="3" y="-27.685" drill="1.5"/>
-<pad name="2" x="3" y="-23.685" drill="1.5"/>
-<pad name="1" x="3" y="-19.685" drill="1.5" first="yes"/>
+<pad name="4" x="-3" y="-19.685" drill="1.2"/>
+<pad name="5" x="-3" y="-23.685" drill="1.2"/>
+<pad name="6" x="-3" y="-27.685" drill="1.2"/>
+<pad name="3" x="3" y="-27.685" drill="1.2"/>
+<pad name="2" x="3" y="-23.685" drill="1.2"/>
+<pad name="1" x="3" y="-19.685" drill="1.2" first="yes"/>
 <text x="0" y="-34.29" size="0.8128" layer="25" ratio="15" align="center">&gt;NAME</text>
 </package>
 </packages>
